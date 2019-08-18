@@ -2939,15 +2939,15 @@ input, select, textarea {
 				left: -3em;
 				position: absolute;
 				top: 0;
-				width: 1px;
+				width: 1px;/*It's where i made changes* used to be 1px*/ 
 			}
 
 			.posts article:after {
 				background: rgba(210, 215, 217, 0.75);
-				bottom: -3em;
+				bottom: -3em; 
 				content: '';
 				display: block;
-				height: 1px;
+				height: 1px;/*It's where i made changes* used to be 1px*/ 
 				position: absolute;
 				right: 0;
 				width: calc(100% + 6em);
@@ -2994,7 +2994,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.posts article {
-				width: calc(50% - 6em);
+				width: calc(33.333333% - 6em); /*It's where I made changes used to be 50%*/
 			}
 
 				.posts article:nth-last-child(3) {
